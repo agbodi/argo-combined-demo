@@ -1,17 +1,21 @@
-apiVersion: bitnami.com/v1alpha1
-kind: SealedSecret
-metadata:
-  creationTimestamp: null
-  name: github-access
-  namespace: argo-events
-spec:
-  encryptedData:
-    token: AgCEIov+g/Zgr/i1ohurhWhY+7QCLIhWmGQgxsjQWAoHemirUg9sYig/H9PMp8h/Rz3ui0cVRKlNXUDbtIqsco+lQPU70I8f05HLYKOh8eFCXoMBbzy3CjTmvlxnCyzEYtZWGHGnQWW8p5Py6qa4VSsN0i9OLmDrEWMvdnpgPNXkbIKBAkxbXQKvM8x7S1zI45cmLJQm6iPzvifemRlEyDg24Z5Az44ygJmWWj449vtTiFyW+0eUXGKEOm/1xHaNQkVyp4cEFZcbExIc29tYEKwvsKLzmtUa54PjJLjIGFSIkBKGHNUR4WbyRVR2KXA/0MhAo4bIJau1JreUIiQh3xIhO45GHYtN8WlWjLzJ3h6BGw1eT2hneqN/WChZcDp7xNr+GdNGSOmzGzF/VKAqh8ktbxwS9aKS9kmwrzeOzGO0rSXz5e5+sY8u+/eyTN+uSGpp4xz/FCqLvFToTl3qloAT0MULV2a9BhOnCHJ6PeEQ4UsrYki1fKOlxmTgf62fry+YzQChTRcy1KVe0Tzhv2LOiwm0Clrq/JLxlOt00Qfp8gm3FjTPK425vHJkNH3uQqMlhYQQy/EuaOF4rcdixYzhn+y/spdEgmjvG1o7aCXtiEP3EVtGGLBPKumLQ5fk0wSON9fkitH4xWEpxMIJs6QApN+W1pXPQByucD29pVyAmoq6H7NIa2NIkrME4fLDz4Mi9jYliG1dQxmjvlj2GHZRdZ5JGF/CA40k2A5sUj0GgYa8U2ShKel6
-  template:
-    data: null
-    metadata:
-      creationTimestamp: null
-      name: github-access
-      namespace: argo-events
-    type: Opaque
-
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "github-access",
+    "namespace": "default",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "github-access",
+        "namespace": "default",
+        "creationTimestamp": null
+      }
+    },
+    "encryptedData": {
+      "token": "AgA6BTpdojdZs9ssSuL/ZfzCf/lM/+ZCtoLa0GUGklWM2JC5AC48coNfbXNyfmpeMamBX+NKGUHhSdBEEw8jt/uxSest1IFo/GtxsI9MJUe9Ep4ZT4AoSLhYng3kg6E4j+CBgWvreEmTQ/umuO+XKg1eBBLRuf3HVOSspaw8degdkJR0VDXcB0WMm7lDimryBX6+I0l0vDGPz33Xel9dOIZQIhq+/SxX+FhhnIA42IyZUAg7GlIG3pjVCcFI6WesO2lbX534eOvOLJwyq9bglAGdTZvuU105b+Boa2uhUUYCU+1FdTTn7jVVRpZRF+ZjBDKtmszSRICrsOc99ismHV8xUrgjJbVW5tjGRRmF/L9xMwDLBnoBorlbWz4sbTS23nc0ZnOjQr16GRiQrNENLGK6uROcfw7fSS5Z0qwB15qDNCXT2CoQwcMsibxEwpdPKsJP4eiPw0EdZuzoz8wZ3KELuSWE+h3nW68Oc79UARMfMEhiIW2zuecA/W3MLShumd4rIiOcIMGFi0Z9FCOsyR5EcWShTLgfaj5EkwMnTgN/2SxBLSetnqU81lpjXTTft6DLxdTDWHlDfYTy6eA3Zd4pRajGMVEWopXs8Zgo1jlNXKi1P5hqk5X+TW+tGiN6CU3rjQA/DCXEA9h2XhQIU0C9UXKON2Hfbh1L16A603Nkj+YMFysbgiHQuh3qC6Pj2RlRqpScwVOA01Mdiw4MR6JamXtoZ/QqXqe7WtVQcqJJ0VBff192BDg6"
+    }
+  }
+}
