@@ -1,19 +1,23 @@
-apiVersion: bitnami.com/v1alpha1
-kind: SealedSecret
-metadata:
-  creationTimestamp: null
-  name: github-access
-  namespace: workflows
-spec:
-  encryptedData:
-    email: AgCLUD4a89iHU3uQQkiOR0V7oAuK41QswYK9T+9IRyeX9tKm+vLvexLOYP3PvT2nKywhya/kfIPhCwxrauqff8NU3zS/H9aYxloGsgOZKaH448/QNWN+EHvgBJa5xoYQREo+cecd+ksU//y8C/tDgr9w7m+8rVIIjfAO0D480oF6NjNnqmIjNl6zlArPgV+FzzofZEu7+jWH1IyRREk5hZbB/G7a85XEDVeLGxrP0KHSaOVyHsddSfYt1XXniX9g3QIh726pYD9v6vb2jP7pQ73uGEjbKwY7rzzqvbJadsCJAgBeaDrfzXgE1X5yVZJJEw7F+PeqMQ5LoCamERoWjusk6cbsVsqGPx5eHMwT37jMcNjWP8UOP+Il+h0sefBgtStRQtWhuF+xQSvlP0kDJe4rGd+ap3ysenRkgqb+7Nre7rIYPQZPa/gOGIYChldv+0Adkp6xX4WX9SrZumXGX7faXTHAm/PNhZV1bV7KYAbAJWBR9g2HKFxOAqF6YS2Tc9cS6J36FkiKlT65m0wS2LFo21r6D5t/kAzkmsz0y5PPKhxTXhumsMJA/sSxbSrtu+96EnT6bVBqmF2kBu/2OycGhi/AwJ+gpo1eCTHEuGaJ+6Ztr506hg/tFJkXYOd8giZ53vfDsaHULGsOJyVF16S8nXhGSqBHKxvGyZumjRFtGOuyEBZdVHuRpluL6dH3cyF1I6EMfYlNJKzOybHMsrDbdw==
-    token: AgAGHx0zMWd5AS2+CMiwg8zUU8InqKJkbAuBotXMcdq5/pNIRA7oS8HIo8iVHgCc43F51UQzqiVxT6OsqSWzZypvf7BEKraQ9l5JK2y3CboX2m5nxAXWKWJW63B4nsORcmgtayujNzUIXF9PWUOGR7XYeuwftK8zx8AxkNfTvqW1iZc9pvLfqmFNAPMjqSQCdNMVKZ4Q5HcwPSqzu1wBu+m6L5KE6mdR7l53ovjPWJ/WDQ+ZDafRKFfj3cWxfNnFZAciAe+uGaCzm7WHahf1OaOir+CRc0WTN/y3566XNeZCWpLhNKjdZuM8nrHgRkt1QY7rd/9uXu0sWl+eHIIxwNU5BClK6lkcVSCiYYo8bOLjzt+Xt84hnrSiSvp6kW04s1VC7ssOI2jZHF0CXec7d/yIGYX1PMJ15CmHEEAqnz8QDAzhxuU3/fVRiIrAyLLLiC/7QV/w1eqlYgdcAnq4SQxPMxNcWQbOsxC4zcRlcyGUHAKhcqTxpYTnd8A/bRXWwaAYvgx9JN0EHL3naVAc9bZ2BdVNOVSe+mUA5Bf2z5lCtvwUkdanXJ8HO0L5WKHc+h8yug3uJbesUZhtP/dh3DnYKloRaK9LbiaN/HwLaHm7i7VxnfwAGy1jbuOuX/LZYGF28CFZjKrOL7fWJtS81y1CQbZw8ZY0e6F/r79TS/EAMwP9aQRslq4n23hMDOOJAdAONnelxY0tEBrGuwZj7wCJIdNfDsx6B1jEP0Ofbp4I8pDvgQLU6jbw
-    user: AgDHzvXUbT3UUwtk5qoROmmJMNqpqYDy4LRD8qbghyNwGGwPpYS9KhqZX3o5UQINKh4FD4WMuA6Yur1jEDW3aXJW/f/NxQQI6j+W8b8LF/FvWu49W31U8aG4ABX72LiP0YiB08d7WD26UdwB2ZRe19msZQnDy3JoncayskHhrUz++Zu8MgFvwAiQIHPZFwZB/BfWWijTiMKHXxBXz4NDsCQUXgOJ0Lr+8zfq21iukgaqbXUnTFI8s19oy7NPfP1vRCIGWUFS7bp+Xkktkb+LAITbM4p1Yxk1kmfYx36SzLKE6wC4s2qHkgPlgMzWwkHWGD0uYTqDjdMFh3A0ZV78qqHGinKNaCKANsSn9ZRvRkhxIi5LR5LJ9gT4nH8G5rWZ0Uhs8BqDZi3oVMBabvUSZz815YCbQgcYP06i4cj5gUFkYp/rIsaMKNo0X2wKlcTRc2aNzp6MvKBXgvuzgb79z2FKWTCGdkyCZVIq6o/FCrEg8EE+OW9HZjnB2oW/u9PbrZMHJm3QoFZmS93a51KNPjeVL/aOgupYN6x1SPIwrGD5s8Pw8RSeJ+X2kYxbYeAHTQ2EWgbEJMbpArkruxDRWBbUlAp2t4Z2AyHxka4RQPabpW7gl47Lvce47bTGicQdFP2nGrpYWKT+oBo0GHLQPSc8TI9ICidGmJPmlJJ7L8Kc/bLxKmSpi5y0RznxzMFSmC2JvNPWfga6
-  template:
-    data: null
-    metadata:
-      creationTimestamp: null
-      name: github-access
-      namespace: workflows
-    type: Opaque
-
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "github-access",
+    "namespace": "workflows",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "github-access",
+        "namespace": "workflows",
+        "creationTimestamp": null
+      }
+    },
+    "encryptedData": {
+      "email": "AgA82RlLeh6dCZgCON4GK6rzAhbDCB9zlybLr4T9CvF5r/sKU9umg0IR6QZFaFN3V6QZoSdsjGKauAAMTFV1bRo+FAHkCStQAAOg56PyYJAG63flaw3/N37qqbd44aNaZFo89JANXfIxDSzmraC9u6nTJYAgsqQ4cQW3w51tjZXGUT0vd7Qo0NbjjtxnSeWdwAk7u4kteHeb7MlGwqxBQH99B2vPgdRaq1bnE/m3cVH7ClY/UFS0bOzh2IFrpW0qo4TbAdv4/TW2tFsM1kDDe/GKZ2aIaCQHUMRK5GVYneBKUuqBqpio86N9lQ+FhdgoouXvqENJVghEOSmaihEoRYosTDpUTbVnpxmI/jPZ286siJuiFWCGIRxDSo0C6Vx4m2tciBOB4MU+wx+UYmHnVrndhpl+XeQxoen/LwMiuA6B5WvfbiwvcIuihhn8/ptvDHVt5B2FXshMygCWTCERsXeQ8mt6tWhS5jGxYm/4x71Hj9m3zKCmtwuw1HPO78zLknaSUy2Dbd0TGsfJh83yCE73b9xMJN7Qfmxg8LJKBmpRzAmPUkSkAolQo5nVXk1iC61ZtX6ipp0nDZnm69qUwsNUqARak9E1ddPhWA5IlYTLkDDb8RJx3/XeXQQHkbczCyZPnETI18RjXOhfFlT90bsiV0eIX2Kj9K3JM37sY9cbbpoZdnign/nAwi5TKA0PAdkPeIDv+9dqR+oZi0guVEStouAD6w==",
+      "token": "AgCVJOTbYjTz37jaG0HHfgbkC7qmBRGQG9GktpKUb/oUtJvV/vzXZDTcUa4Pl6LqVbAGOzm/sT9KE67CZLgxi32yQETQet8X1BUvpWwXATVH8P5LPzqOk8AKG9wHyfQUGccpPDDIUyLp59jBpnUHDaOdTPwW95E4YNRbrRH+ewmZBWYrYJ89x9YSN/gA1hw2LNC8l9emGQ9JQNM6eamxpL88sY/lsrdBV6Wye8eCohd2jVgK17qG8SvEpSZ7j7tlWLQfaYKItCZCDRghwTo5yNPrNWHFJKyQ6+gBbmgyAq+g4rtQFAKeHW6vxlxi+fdx6pQSSvrBnyJVWj9J7lEENydSC2FAm7Q+R9jJdvScR3EhbIeGSodQHZqdlaqkGwzshg6UVBRIw4c9CCtSOXNrHWIOLLn63CvTlFUx9ujOK3yQUVW58IqtUxtIhc9jRJf5YvOFzCvN3RHE568EJIZooxu0Vy4NVaeUJGss5es1r4cr44wtwYl9yY6UX74xwV+VklKtlE7Hb+9cxPlAt/jXLlDZ4SDuTMv67f9D4v1QuzFkvZCzpv1YTy8MA9OBC0kZSwRgyn6jWUjj4+o9milkE53ySBAdimJMDX4795hwiQabWA6Qb0ojs7s3bDM62CNmZhGYrY5DnMvPaW8KC7TBxEbyTmAp/6wdiaKW1qTIdriJWJheFCGYPizplMVD0AxfgA/zHLEb6UefY3YZH/DQPPEVkca2lC+iRO0DNL+9GgkEg7AqCEuRAJsh",
+      "user": "AgAhb8A5wdM9GfsrVuYiUBGLaelNEhZAdcrsUXDP3TqetcKzyywJWd8UV9dmsYtnuca/mt5IVBUGGWzDYCB7Qyf4ioyEn3fWKiwSnQ7YDzIpd9Eg5Cgj4wSuAfaH0sO/5ji7kTDmk/P0iP+BtqWnTkOTjGrDKTfDIyb3CldLdKyVzS+UIdNYplkSLyE1QCY4oMlsRmxvNf9xVjARhhBiOtZWWftv6Pg83xiPY/88gT4DJk0v3biBQlXN7lbF1PbhKNqCSHK4yIX2Guyy+qC8q8tf2cZPyzGYlPTGTa2KMI4f+wlJBdtbFg8uFSCGylRyP0B6dVHfOEdszNZPjieYXTCuKrGZfDY7FJ3D3IN6Npdaj9lITNWLEaD6Mtt+XgyScKdptS5n4TZBjJZMOfd3fhxP1wGA86cQf51ZE8ihk/xFYojB+AaHhbHyxWHkau6Lh+UFiXZUU0n4pPIjBqDwkPREIosLYK4hfZ/PPd6dMTw389/OZ2wO+nAfKb8XMiPxdgQ+/9/SPp8medRjXi/E6RNzymvZSWm1NoS+e6woAvQz5jcJP+yYGdFqu1jMt8X2L6YPa1sKBbPAF8Z3vgDHZ0yWAiVzRlZSFXYNt9HsmY3m0TM1WgzicBnreWPUyFqlq6S/bKSoe02RnQD2QSArxuYfofN+pZp3L7nLCfTad5iz7jgQVTzaDuSxdkB+ZiP+NF9Gqiso9Hw="
+    }
+  }
+}
